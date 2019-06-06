@@ -1,16 +1,38 @@
 <section>
-<h1>Cart Items</h1>
+  <h1>Cart Items</h1>
 
-<form #cartForm="ngForm" (ngSubmit)="addNewItem(cartForm.value.newitem)">
-  <label for="">New item</label>
-  <input type="text" ngModel name="newitem">
-  <button>Add Item</button>
-</form>
+  <form class="topForm" #itemsForm="ngForm" (ngSubmit)="addNewItem(itemsForm)">
+    <label for="">Product</label>
+    <input type="text" ngModel name="product">
 
-<div *ngFor="let items of cartItems">
-  <p>Id: {{items.id}}</p>
-  <p>Product: {{items.product}}</p>
-  <p>Price: ${{items.price}}</p>
-  <p>Quantity: {{items.quantity}}</p>
-</div>
+    <label for="">Price</label>
+    <input type="number" ngModel name="price">
+
+    <label for="">Quantity</label>
+    <input type="number" ngModel name="quantity">
+
+    <button>Add Item</button>
+  </form>
+
+  <div *ngFor="let items of cartItems; index as i">
+    <p>Product: {{items.product}}</p>
+    <p>Price: ${{items.price}}</p>
+    <p>Quantity: {{items.quantity}}</p>
+
+    <button (click)="deleteAnItem(items.id)">X</button>
+    <button (click)="toggleForm(i)">Edit</button>
+
+    <form *ngIf="items.beingUpdated" #updateForm="ngForm" (ngSubmit)="[updateAnItem(items), toggleForm(i)]">
+      <label for="">Product</label>
+      <input type="text" [(ngModel)]="items.product" name="product">
+
+      <label for="">Price</label>
+      <input type="number" [(ngModel)]="items.price" name="price">
+
+      <label for="">Quantity</label>
+      <input type="number" [(ngModel)]="items.quantity" name="quantity">
+
+      <button>Save Animal</button>
+      </form>
+  </div>
 </section>

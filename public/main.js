@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "section {\n    width: 100vw;\n    height: 100vh;\n    background-color: skyblue;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nform {\n    width: 500px;\n    height: 400px;\n    border-radius: 5px;\n    background-color: rgb(179,178,176, 0.6);\n    opacity: 0.8;\n    padding: 20px;\n}\n\ninput, button {\n    border-radius: 5px;\n    padding: 10px;\n    background-color: #fff;\n    margin: 4px;\n}\n\ndiv {\n    border: 3px outset black;\n    width: 90%;\n    background-color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLHVCQUF1QjtJQUN2QixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLGtCQUFrQjtJQUNsQix1Q0FBdUM7SUFDdkMsWUFBWTtJQUNaLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsVUFBVTtJQUNWLHVCQUF1QjtBQUMzQiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsic2VjdGlvbiB7XG4gICAgd2lkdGg6IDEwMHZ3O1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogc2t5Ymx1ZTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuZm9ybSB7XG4gICAgd2lkdGg6IDUwMHB4O1xuICAgIGhlaWdodDogNDAwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxNzksMTc4LDE3NiwgMC42KTtcbiAgICBvcGFjaXR5OiAwLjg7XG4gICAgcGFkZGluZzogMjBweDtcbn1cblxuaW5wdXQsIGJ1dHRvbiB7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgICBtYXJnaW46IDRweDtcbn1cblxuZGl2IHtcbiAgICBib3JkZXI6IDNweCBvdXRzZXQgYmxhY2s7XG4gICAgd2lkdGg6IDkwJTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbn0iXX0= */"
+module.exports = "section {\n    width: 100%;\n    height: 100%;\n    background-color: skyblue;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.topForm {\n    width: 500px;\n    height: 250px;\n    border-radius: 5px;\n    background-color: rgb(179,178,176, 0.6);\n    opacity: 0.8;\n    padding: 20px;\n    display: flex;\n    flex-direction: column;\n    padding-bottom: 20px;\n    margin-bottom: 5%;\n}\n\ninput, button {\n    border-radius: 5px;\n    padding: 10px;\n    background-color: #fff;\n    margin: 4px;\n}\n\ndiv {\n    border: 3px outset black;\n    width: 90%;\n    background-color: white;\n    padding: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLHVCQUF1QjtJQUN2QixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLGtCQUFrQjtJQUNsQix1Q0FBdUM7SUFDdkMsWUFBWTtJQUNaLGFBQWE7SUFDYixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLG9CQUFvQjtJQUNwQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsVUFBVTtJQUNWLHVCQUF1QjtJQUN2QixhQUFhO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJzZWN0aW9uIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogc2t5Ymx1ZTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLnRvcEZvcm0ge1xuICAgIHdpZHRoOiA1MDBweDtcbiAgICBoZWlnaHQ6IDI1MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTc5LDE3OCwxNzYsIDAuNik7XG4gICAgb3BhY2l0eTogMC44O1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIHBhZGRpbmctYm90dG9tOiAyMHB4O1xuICAgIG1hcmdpbi1ib3R0b206IDUlO1xufVxuXG5pbnB1dCwgYnV0dG9uIHtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICAgIG1hcmdpbjogNHB4O1xufVxuXG5kaXYge1xuICAgIGJvcmRlcjogM3B4IG91dHNldCBibGFjaztcbiAgICB3aWR0aDogOTAlO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6IDEwcHg7XG59Il19 */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "section {\n    width: 100vw;\n    height: 100vh;\n    backgrou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section>\n<h1>Cart Items</h1>\n\n<form #cartForm=\"ngForm\" (ngSubmit)=\"addNewItem(cartForm.value.newitem)\">\n  <label for=\"\">New item</label>\n  <input type=\"text\" ngModel name=\"newitem\">\n  <button>Add Item</button>\n</form>\n\n<div *ngFor=\"let items of cartItems\">\n  <p>Id: {{items.id}}</p>\n  <p>Product: {{items.product}}</p>\n  <p>Price: ${{items.price}}</p>\n  <p>Quantity: {{items.quantity}}</p>\n</div>\n</section>\n"
+module.exports = "<section>\n  <h1>Cart Items</h1>\n\n  <form class=\"topForm\" #itemsForm=\"ngForm\" (ngSubmit)=\"addNewItem(itemsForm)\">\n    <label for=\"\">Product</label>\n    <input type=\"text\" ngModel name=\"product\">\n\n    <label for=\"\">Price</label>\n    <input type=\"number\" ngModel name=\"price\">\n\n    <label for=\"\">Quantity</label>\n    <input type=\"number\" ngModel name=\"quantity\">\n\n    <button>Add Item</button>\n  </form>\n\n  <div *ngFor=\"let items of cartItems; index as i\">\n    <p>Product: {{items.product}}</p>\n    <p>Price: ${{items.price}}</p>\n    <p>Quantity: {{items.quantity}}</p>\n\n    <button (click)=\"deleteAnItem(items.id)\">X</button>\n    <button (click)=\"toggleForm(i)\">Edit</button>\n\n    <form *ngIf=\"items.beingUpdated\" #updateForm=\"ngForm\" (ngSubmit)=\"[updateAnItem(items), toggleForm(i)]\">\n      <label for=\"\">Product</label>\n      <input type=\"text\" [(ngModel)]=\"items.product\" name=\"product\">\n\n      <label for=\"\">Price</label>\n      <input type=\"number\" [(ngModel)]=\"items.price\" name=\"price\">\n\n      <label for=\"\">Quantity</label>\n      <input type=\"number\" [(ngModel)]=\"items.quantity\" name=\"quantity\">\n\n      <button>Save Animal</button>\n      </form>\n  </div>\n</section>"
 
 /***/ }),
 
@@ -68,9 +68,32 @@ var AppComponent = /** @class */ (function () {
         this.title = 'expresslab';
         this.cartService.getAllItems().subscribe(function (response) {
             _this.cartItems = response;
+            console.log(_this.cartItems);
         });
     }
-    ;
+    AppComponent.prototype.addNewItem = function (form) {
+        var _this = this;
+        this.cartService.addItem(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, form.value)).subscribe(function (response) {
+            _this.cartItems = response;
+        });
+    };
+    AppComponent.prototype.deleteAnItem = function (id) {
+        var _this = this;
+        this.cartService.deleteItem(id).subscribe(function (response) {
+            _this.cartItems = response;
+        });
+    };
+    AppComponent.prototype.updateAnItem = function (item) {
+        var _this = this;
+        console.log(item);
+        this.cartService.updateItem(item).subscribe(function (response) {
+            _this.cartItems = response;
+        });
+    };
+    AppComponent.prototype.toggleForm = function (index) {
+        this.cartItems[index].beingUpdated = !this.cartItems[index].beingUpdated;
+        console.log(this.cartItems[index]);
+    };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-root',
@@ -156,6 +179,15 @@ var CartService = /** @class */ (function () {
     }
     CartService.prototype.getAllItems = function () {
         return this.http.get("/api/cart-items", { responseType: "json" });
+    };
+    CartService.prototype.addItem = function (newItem) {
+        return this.http.post("/api/cart-items", newItem, { responseType: "json" });
+    };
+    CartService.prototype.deleteItem = function (id) {
+        return this.http.delete("api/cart-items/" + id, { responseType: "json" });
+    };
+    CartService.prototype.updateItem = function (item) {
+        return this.http.put("api/cart-items/" + item.id, item, { responseType: "json" });
     };
     CartService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
